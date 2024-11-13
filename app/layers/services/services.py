@@ -11,7 +11,8 @@ def getAllImages(input=None):
 
     # recorre cada dato crudo de la colección anterior, lo convierte en una Card y lo agrega a images.
     images = []
-    for i in range(len(getAllImages):
+    for dato in json_collection:
+        images.append(fromRequesIntoCard[dato])
 
 
     return images
